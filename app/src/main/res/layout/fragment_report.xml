@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bd.com.madmind.rentmaster.fragments.Report">
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:textColor="#388E3C"
+       android:textSize="20dp"
+       android:text="Select a project from bleow"
+       android:id="@+id/textView"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="45dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:id="@+id/spinnerReport"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"></Spinner>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:text="Show the total Income"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/totalIncomebtn" />
+
+</RelativeLayout>
